@@ -1,7 +1,7 @@
 {
   "name": "validity-email",
   "description": "Validity style validator to ensure that a property is a valid email address.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "dependencies": {
     "email-validator": "^1.0.7",
     "validity": "^1.0.0"
