@@ -1,0 +1,38 @@
+{
+  "name": "validity-email",
+  "description": "Validity style validator to ensure that a property is a valid email address.",
+  "version": "0.0.0",
+  "dependencies": {
+    "email-validator": "^1.0.7",
+    "validity": "^1.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "inspect": "jsinspect",
+    "pretest": "npm run lint && npm run inspect",
+    "test": "istanbul cover ./node_modules/.bin/_mocha -- --recursive -R spec",
+    "posttest": "(istanbul check-coverage --statements 90 --branches 90 --functions 100 --lines 90 && rm -rf coverage) || echo Look at 'coverage/lcov-report/index.html' to find out more"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": "Paul Serby <paul@serby.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.6.1",
+    "eslint-config-clock": "^1.1.0",
+    "eslint-config-standard": "^6.1.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "istanbul": "^0.4.5",
+    "jsinspect": "^0.8.0",
+    "mocha": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:serby/validity-email.git"
+  }
+}
