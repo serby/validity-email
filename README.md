@@ -5,7 +5,7 @@ Validity style validator to ensure that a property is a valid email address.
 As part of the modularisation of [validity](https://github.com/serby/validity), this replaces the built-in `validity.email`.
 
 [![build status](https://secure.travis-ci.org/serby/validity-email.svg)](http://travis-ci.org/serby/validity-email)
-[![dependency status](https://david-dm.org/serby/validity-email.svg)](https://david-dm.org/serby/validity-email)
+[![dependency status](https://david-dm.org/serby/validity-email.svg)](https://david-dm.org/serby/validity-email) [![Greenkeeper badge](https://badges.greenkeeper.io/serby/validity-email.svg)](https://greenkeeper.io/)
 
 ## Installation
 
