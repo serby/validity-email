@@ -3,7 +3,7 @@
   "description": "Validity style validator to ensure that a property is a valid email address.",
   "version": "1.0.0",
   "dependencies": {
-    "email-validator": "^1.0.7",
+    "email-validator": "^2.0.4",
     "validity": "^1.0.0"
   },
   "scripts": {
@@ -22,14 +22,14 @@
   "author": "Paul Serby <paul@serby.net>",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^3.6.1",
+    "eslint": "^6.0.0",
     "eslint-config-clock": "^1.1.0",
-    "eslint-config-standard": "^6.1.0",
-    "eslint-plugin-promise": "^2.0.1",
-    "eslint-plugin-standard": "^2.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
     "istanbul": "^0.4.5",
-    "jsinspect": "^0.8.0",
-    "mocha": "^3.1.0"
+    "jsinspect": "^0.12.7",
+    "mocha": "^6.1.4"
   },
   "repository": {
     "type": "git",
