@@ -1,4 +1,4 @@
-var validity = require('validity')
+var validity = require('@clocklimited/validity')
   , validator = require('email-validator')
 
 module.exports = validity.createValidatorAllowingFailureMessageOverride(
