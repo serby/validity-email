@@ -1,7 +1,7 @@
 {
   "name": "@clocklimited/validity-email",
   "description": "Validity style validator to ensure that a property is a valid email address.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "email-validator": "^1.0.7",
     "@clocklimited/validity": "^1.1.3"

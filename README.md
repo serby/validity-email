@@ -10,7 +10,7 @@ As part of the modularisation of [validity](https://github.com/serby/validity), 
 ## Installation
 
 ```
-npm install --save validity-email
+npm install --save @clocklimited/validity-email
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm install --save validity-email
 ```js
 
 const schemata = require('schemata')
-  , email = require('validity-email')
+  , email = require('@clocklimited/validity-email')
   , schema = schemata(
     { emailAddress:
       { validators: [ email ] }
